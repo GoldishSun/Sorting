@@ -30,7 +30,7 @@ const IS = class IS {
   }
 }
 
-const is = new IS();
+const is = new IS(); 
 is.random();
 console.log(is.target);
 console.log(is.boot());
