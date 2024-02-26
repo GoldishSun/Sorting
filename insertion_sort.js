@@ -20,6 +20,12 @@ const IS = class IS {
       }
       e += 1;
     }
+    if (mode === 'descending') {
+      const tmp = [];
+      while (this.target.length > 0) 
+        tmp.push(this.target.pop());
+      this.target = tmp;
+    }
     return this.target;
   }
 }
